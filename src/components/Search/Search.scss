@@ -1,0 +1,34 @@
+.search-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .input-wrapper {
+        position: relative;
+        select {
+            height: 50px;
+            padding: 10px;
+            border-left: hidden;
+            border-top: hidden;
+            border-bottom: hidden;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            outline: none;
+            text-transform: capitalize;
+        }
+        input {
+            width: 500px;
+            height: 50px;
+            padding: 10px;
+            border: none;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            outline: none;
+        }
+        .fa-search{
+            position: absolute;
+            right: 10px;
+            top: 15px;
+        }
+    }
+}
